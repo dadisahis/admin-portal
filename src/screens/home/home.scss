@@ -1,0 +1,12 @@
+.home {
+  //   background-color: #54bab9;
+  //   .title {
+  //     color: white;
+  //   }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .homeContainer {
+    flex: 6;
+  }
+}

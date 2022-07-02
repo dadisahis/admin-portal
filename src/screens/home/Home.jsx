@@ -3,6 +3,8 @@ import "./home.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import NavBar from "../../components/navbar/NavBar";
 import Widget from "../../components/widgets/Widget";
+import Featured from "../../components/featured/Featured";
+import Chart from "../../components/chart/Chart";
 
 function Home() {
   return (
@@ -16,7 +18,13 @@ function Home() {
           <Widget type="earning" />
           <Widget type="balance" />
         </div>
-        <div className="charts"></div>
+        <div className="charts">
+          <Featured />
+          <Chart />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Latest Transactions</div>
+        </div>
       </div>
     </div>
   );

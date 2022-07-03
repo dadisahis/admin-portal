@@ -5,6 +5,7 @@ import NavBar from "../../components/navbar/NavBar";
 import Widget from "../../components/widgets/Widget";
 import Featured from "../../components/featured/Featured";
 import Chart from "../../components/chart/Chart";
+import TableList from "../../components/table/Table";
 
 function Home() {
   return (
@@ -20,10 +21,11 @@ function Home() {
         </div>
         <div className="charts">
           <Featured />
-          <Chart />
+          <Chart aspect={2 / 1} title="Last 6 months (Revenue)" />
         </div>
         <div className="listContainer">
           <div className="listTitle">Latest Transactions</div>
+          <TableList />
         </div>
       </div>
     </div>

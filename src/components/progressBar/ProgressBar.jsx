@@ -12,6 +12,7 @@ function ProgressBar() {
           stroke={5}
           strokeBottom={5}
           colorCircle="lightgray"
+          fontColor="gray"
           round={true}
           className="progressbar_loader"
         />
